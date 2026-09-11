@@ -1,0 +1,25 @@
+print("Why did the chicken cross the road")
+input()
+print("To get to the other side!")
+input()
+print("What is did the ocean do to the sky?")
+input()
+print("It waved!")
+input()
+print("Would you like to hear another joke?")
+answer = input()
+if answer == "yes":
+    print ("Why can't you trust people named adam?")
+    input ()
+    print ("Because they make up everything!")
+if answer == "no":
+    print ("Why are you being so mean?")
+    input()
+    print ("It's not nice to be mean")
+    input()
+    print ("I'll see you later")
+if answer == "idk":
+    print (" WELL PICK GODDAMN IT")
+    input()
+if answer == "sorry":
+    print ("It's ok I forgive you, but dont do it again")
