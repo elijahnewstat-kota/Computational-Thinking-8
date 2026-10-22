@@ -17,7 +17,7 @@ if answer2 == "no" or "No" or "NO" or "nO" or " No" or " nO" or " no" or " NO":
     roblox +=1
     fortnite += 1
 elif answer2 == "yes" or "Yes" or "YES" or "YEs" or " yes" or " Yes" or " YEs" or "YES":
-    siege +=1
+    siege +=2
 answer3 = input("Are you strong-willed?")
 if answer3 == "no" or "No" or "NO" or "nO" or " No" or " nO" or " no" or " NO":
     siege -= 1
@@ -35,7 +35,6 @@ elif answer5 == "no" or "No" or "NO" or "nO" or " No" or " nO" or " no" or " NO"
     siege += 1
 answer6 = input("Do you play videogames on mobile?")
 if answer6 == "yes" or "Yes" or "YES" or "YEs" or " yes" or " Yes" or " YEs" or "YES":
-    minecraft += 1
     siege -= 1
     roblox += 1
 elif answer6 == "sometimes":
@@ -43,13 +42,11 @@ elif answer6 == "sometimes":
 answer7 = input("Are you good at videogames")
 if answer7 == "yes" or "Yes" or "YES" or "YEs" or " yes" or " Yes" or " YEs" or "YES":
     siege += 1
-    minecraft += 1
 elif answer7 == "no":
     fortnite += 1
     roblox += 1
 answer8 = input ("Do you like variety in videogames?")
 if answer8 == "yes" or "Yes" or "YES" or "YEs" or " yes" or " Yes" or " YEs" or "YES":
-    minecraft += 1
     roblox += 2
     fortnite += 0.5
 elif answer8 == "no" or "No" or "NO" or "nO" or " No" or " nO" or " no" or " NO":
