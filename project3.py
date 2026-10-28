@@ -5,51 +5,51 @@ minecraft = 0
 print ("Answer these question with yes or no answers")
 input()
 answer1 = input ("Are you smart?")
-if answer1 == "yes" or "Yes" or "YES" or "YEs" or " yes" or " Yes" or " YEs" or "YES":
+if answer1 == "yes" or answer1 == "Yes":
     siege += 1
     minecraft += 1
-elif answer1 == "no" or "No" or "NO" or "nO" or " No" or " nO" or " no" or " NO":
-    fortnite += 1
-    roblox += 1
+elif answer1 == "no" or answer1 == "No":
+    fortnite -= 1
+    roblox -= 1
 answer2 = input ("Are you a good listener")
-if answer2 == "no" or "No" or "NO" or "nO" or " No" or " nO" or " no" or " NO":
+if answer2 == "no" or answer2 == "No":
     siege -= 1
     roblox +=1
     fortnite += 1
-elif answer2 == "yes" or "Yes" or "YES" or "YEs" or " yes" or " Yes" or " YEs" or "YES":
+elif answer2 == "yes" or answer2 == "Yes":
     siege +=2
 answer3 = input("Are you strong-willed?")
-if answer3 == "no" or "No" or "NO" or "nO" or " No" or " nO" or " no" or " NO":
+if answer3 == "no" or answer3 == "No":
     siege -= 1
-elif answer3 == "yes" or "Yes" or "YES" or "YEs" or " yes" or " Yes" or " YEs" or "YES":
+elif answer3 == "yes" or  answer3 == "Yes":
     siege += 1
 answer4 = input ("Are you creative?")
-if answer4 == "yes" or "Yes" or "YES" or "YEs" or " yes" or " Yes" or " YEs" or "YES":
+if answer4 == "yes" or answer4 == "Yes":
     minecraft += 1
 answer5 = input("Do you play videogames to relax?")
-if answer5 == "yes" or "Yes" or "YES" or "YEs" or " yes" or " Yes" or " YEs" or "YES":
+if answer5 == "yes" or answer5 == "Yes":
     minecraft += 2
     siege -= 1
     roblox += 1
-elif answer5 == "no" or "No" or "NO" or "nO" or " No" or " nO" or " no" or " NO":
+elif answer5 == "no" or answer5 == "No":
     siege += 1
 answer6 = input("Do you play videogames on mobile?")
-if answer6 == "yes" or "Yes" or "YES" or "YEs" or " yes" or " Yes" or " YEs" or "YES":
+if answer6 == "yes" or answer6 == "Yes":
     siege -= 1
     roblox += 1
 elif answer6 == "sometimes":
     print ("cool")
 answer7 = input("Are you good at videogames")
-if answer7 == "yes" or "Yes" or "YES" or "YEs" or " yes" or " Yes" or " YEs" or "YES":
+if answer7 == "yes" or answer7 == "Yes":
     siege += 1
-elif answer7 == "no":
+elif answer7 == "no" or answer7== "No":
     fortnite += 1
-    roblox += 1
+    roblox -= 2
 answer8 = input ("Do you like variety in videogames?")
-if answer8 == "yes" or "Yes" or "YES" or "YEs" or " yes" or " Yes" or " YEs" or "YES":
+if answer8 == "yes" or answer8 == "Yes":
     roblox += 2
     fortnite += 0.5
-elif answer8 == "no" or "No" or "NO" or "nO" or " No" or " nO" or " no" or " NO":
+elif answer8 == "no" or answer8 == "No":
     siege += 1
 #end of quiz
 print (f"You're videogame compatibility is {siege} with Rainbow Six Siege, {roblox} with Roblox, {minecraft} with Minecraft, and {fortnite} with Fortnite")
